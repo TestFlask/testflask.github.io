@@ -13,16 +13,20 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: TestFlask
+tagline: Mocking and testing made simple
+email: fatihsahin72@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  TestFlask is an open source framework for testing your .net
+  web services and APIs. <br/>
+  It simply plugs into the build process 
+  and in an instant, you are able to start recording and replaying test scenarios.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: F_Sahin
+github_username:  FatihSahin
+github:
+  repo: https://github.com/FatihSahin/test-flask
 
 # Build settings
 markdown: kramdown
