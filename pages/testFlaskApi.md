@@ -1,8 +1,8 @@
 ---
 layout: page
-title: TestFlask Manager
-permalink: /test-flask-manager/
-order: 3
+title: TestFlask API
+permalink: /test-flask-api/
+order: 2
 ---
 
 TestFlask is an open source testing framework
