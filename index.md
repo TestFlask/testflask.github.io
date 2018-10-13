@@ -5,15 +5,17 @@
 layout: home
 title: Home
 ---
-
 # TestFlask Introduction
+TestFlask is an open source set of components that helps creating and replaying test scenarios for your .net backend services. It can be easily applied to any Asp.Net MVC REST API or WCF Services.
+TestFlask nuget packages are available on [nuget.org](https://www.nuget.org/packages?q=TestFlask)
 
-TestFlask is an open source set of components that helps creating and replaying test scenarios for your .net backend services. It can be easily applied to any Asp.Net MVC REST API or WCF Services. It is available on [GitHub](https://github.com/FatihSahin/test-flask)
+Source code is also available on [GitHub](https://github.com/FatihSahin/test-flask)
 
 Here is an introduction video for a quickstart to TestFlask. 
-> Demo code is also available on [GitHub](https://github.com/FatihSahin/test-flask-demo)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zLx35V4BPQg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+> Demo code for the video is available on [GitHub](https://github.com/FatihSahin/test-flask-demo)
 
 > There is no .Net Core support yet. However, it is on the roadmap and a high priority issue.
 
@@ -26,7 +28,7 @@ TestFlask consists of following components. You can go to detail pages of each f
 > TestFlask Manager is also available on [TestFlask Manager GitHub Repo](https://github.com/FatihSahin/test-flask-manager)
 
 
-* ### [TestFlask Weaver](/test-flask-manager)
+* ### [TestFlask Weaver](/test-flask)
 
     TestFlask Weaver transforms your marked methods with record, replay capabilities during MS Build. It is the provider package for core functionality of TestFlask.
 
