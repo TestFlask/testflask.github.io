@@ -9,7 +9,11 @@ TestFlask Weaver is made up of two nuget packages.
 
 * [TestFlaskAddin.Fody](https://www.nuget.org/packages/TestFlaskAddin.Fody/)
 
-    This is a [Fody](https://github.com/Fody/Fody) addin for TestFlask to plug in to MS Build. This package needs to be referenced in order to enable TestFlask to be able to weave your methods.
+    This is a [Fody](https://github.com/Fody/Fody) addin for TestFlask to plug in to MS Build. This package needs to be installed in order to enable TestFlask to be able to weave your methods. 
+
+    You can install the package using nuget package manager inside Visual Studio or from the package manager console
+
+    > Install-Package TestFlaskAddin.Fody -Version 1.0.0
 
     When you install this package, a FodyWeaver.xml will be included in your project. You can enable by uncommenting or disable TestFlask by commenting TestFlaskAddin line using this xml file.
 

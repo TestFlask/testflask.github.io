@@ -26,8 +26,8 @@ Option (shortcut) | Option (long) | Description
 -n | --namespace    | (Default: TestFlaskAutoTests) Namespace for your generated test class
 -m | --mode         | (Default: aot) Test generation mode. Use aot to embed test data into test files, and use jit to fetch test data on execution time.
 -l | --labels       | Comma seperated list of labels of scenarios for which to generate unit tests
-|  | --help |            Display this help screen.
-|  | --version |         Display version information.
+  | --help |            Display this help screen.
+  | --version |         Display version information.
 
 
 ## testflask unit
