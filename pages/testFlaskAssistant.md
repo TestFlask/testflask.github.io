@@ -41,7 +41,7 @@ Inside the ```_Layout.cshtml```, you should add ```testFlask.css``` into html he
 ```html
 <head>
     ...
-    <link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/testFlask.css")">
+    <link rel="stylesheet" type="text/css" href='@Url.Content("~/Content/testFlask.css")'>
 </head>
 ```
 
