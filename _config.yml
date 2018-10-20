@@ -22,7 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   It simply plugs into the build process 
   and instantly you are ready to start recording and replaying test scenarios.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://testflask.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: F_Sahin
 github_username:  FatihSahin
 github:
