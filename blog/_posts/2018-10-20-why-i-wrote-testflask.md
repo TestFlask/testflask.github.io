@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Welcome to TestFlask blog
+comments: true
 ---
 
 
